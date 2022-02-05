@@ -39,6 +39,17 @@ li {
 .bg-secondary{
     background-color: #e3f6f5;
 }
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .button {
     display: inline-block;
     color: #272343;
