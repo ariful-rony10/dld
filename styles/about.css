@@ -1,0 +1,14 @@
+.about-us{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem 5rem;
+    height: 40vh;
+    background: url('https://images.unsplash.com/photo-1614898929027-04c0152069d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80') no-repeat fixed center;
+}
+.about-us h1 {
+    color: #ffd803;
+    text-align: center;
+    font-size: 5rem;
+}
+.about-us p {
+}

@@ -5,103 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Md. Ariful Islam">
-    <meta name="author email" content="hi@ariful.dev">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Styles -->
-    <link rel="stylesheet" href="styles/styles.css">
-    <title>Team Name</title>
+    <link rel="stylesheet" href="./styles/shared-styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Electro</title>
 </head>
 <body>
-    <header>
-        <div class="container-fluid">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <a class="navbar-brand" href="#">Team Name</a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Projects
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">Updates</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
+    <header id="header">
+        <a href="./index.html" class="logo"><i class="fas fa-bolt"></i>Electro</a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./src/projects.html">Projects</a></li>
+                <li><a href="./src/updates.html">Updates</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+            </ul>
+        </nav>
+        <a href="#mobile-menu" class="menu-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
     </header>
+    <aside id="mobile-menu">
+        <header>
+            <a href="#" class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="./src/projects.html">Projects</a></li>
+                <li><a href="./src/updates.html">Updates</a></li>
+                <li><a href="./src/about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </aside>
     <main>
-    <section class="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 ">
-                    <div class="hero-content">
-                    <span class="welcome-txt">Welcome</span>
-                    <div class="hr"></div>
-                    <h1 class="title">Group Name</h1>
-                    <h2>| Group 2 |</h2>
-                    </div>
-                </div>
+        <section id="hero">
+            <div class="hero-container">
+                <h2>Welcome</h2>
+                <h1 class="txt-highlight"><i class="fas fa-bolt"></i>Electro</h1>
+                <h2>Group 2</h2>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="about" class="bg-secondary">
+            <div class="about-container">
+                <h2>About Team Electro</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam at molestiae ducimus, omnis minus sint excepturi provident optio error doloremque, aliquam quas voluptatibus aperiam esse culpa laborum dolores nobis? Velit, exercitationem ea maiores voluptatum reprehenderit voluptates officiis quidem iusto dolorem eos nobis alias dolores soluta ex obcaecati dolor omnis? Aliquam!</p>
+                <a href="#" class="button">Meet Team Electro</a>
+            </div>
+        </section>
     </main>
     <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <p>Team Name</p>
-                </div>
-                <div class="col-md-4">
-                    <h3>Site Map</h3>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Project</a></li>
-                        <li><a href="#">Updates</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h3>Contact</h3>
-                    <div>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                    </div>
-                    <div>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                        <a href="mailto:ariful.rony10@gmail.com"><i class="far fa-envelope"></i>Md. Ariful Islam</a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <p>&copy <a href="https://ariful.dev">Md. Ariful Islam</a></p>
     </footer>
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
 </body>
 </html>
