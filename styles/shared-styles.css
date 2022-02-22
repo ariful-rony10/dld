@@ -129,6 +129,7 @@ li {
     justify-content: space-between;
     align-items: center;
     padding: 1% 5%;
+    min-height: 8vh;
 }
 #header nav ul {
     display: flex;
